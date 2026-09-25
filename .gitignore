@@ -1,0 +1,174 @@
+# Unity .gitignore Template
+# Customized for Unity + C# + VR projects
+
+# Source:
+# https://github.com/github/gitignore/blob/main/Unity.gitignore
+
+# =========================
+# Unity generated folders
+# =========================
+
+.utmp/
+
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+
+*.log
+
+# =========================
+# Blender
+# =========================
+
+# Blender backup files
+*.blend1
+*.blend1.meta
+
+# =========================
+# Unity memory captures
+# =========================
+
+/[Mm]emoryCaptures/
+
+# =========================
+# Unity recordings
+# =========================
+
+/[Rr]ecordings/
+
+# =========================
+# Unity Asset Store Tools
+# =========================
+
+# Uncomment if you don't want to version Asset Store Tools
+# /[Aa]ssets/AssetStoreTools*
+
+# =========================
+# JetBrains Rider
+# =========================
+
+/[Aa]ssets/Plugins/Editor/JetBrains*
+
+*.DotSettings.user
+
+# =========================
+# Visual Studio
+# =========================
+
+.vs/
+
+# =========================
+# Gradle
+# =========================
+
+.gradle/
+
+# =========================
+# Generated solution/project files
+# =========================
+
+ExportedObj/
+.consulo/
+
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# =========================
+# Unity generated meta files
+# =========================
+
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+
+# =========================
+# Crash reports
+# =========================
+
+sysinfo.txt
+mono_crash.*
+
+# =========================
+# Builds
+# =========================
+
+*.apk
+*.aab
+*.unitypackage
+*.unitypackage.meta
+*.app
+
+# =========================
+# Crashlytics
+# =========================
+
+crashlytics-build.properties
+
+# =========================
+# Test Runner generated files
+# =========================
+
+InitTestScene*.unity*
+
+# =========================
+# Addressables
+# =========================
+
+/ServerData/
+/[Aa]ssets/StreamingAssets/aa*
+/[Aa]ssets/AddressableAssetsData/link.xml*
+/[Aa]ssets/Addressables_Temp*
+/[Aa]ssets/AddressableAssetsData/*/*.bin*
+
+# =========================
+# Visual Scripting
+# =========================
+
+/[Aa]ssets/Unity.VisualScripting.Generated/VisualScripting.Flow/UnitOptions.db
+/[Aa]ssets/Unity.VisualScripting.Generated/VisualScripting.Flow/UnitOptions.db.meta
+/[Aa]ssets/Unity.VisualScripting.Generated/VisualScripting.Core/Property Providers
+/[Aa]ssets/Unity.VisualScripting.Generated/VisualScripting.Core/Property Providers.meta
+
+# =========================
+# Auto-generated test scenes
+# =========================
+
+/[Aa]ssets/[Ii]nit[Tt]est[Ss]cene*.unity*
+
+# =========================
+# Operating system files
+# =========================
+
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# =========================
+# VS Code
+# =========================
+
+.vscode/
+
+# =========================
+# Temporary / backup files
+# =========================
+
+*.bak
+*.swp
+*.orig
