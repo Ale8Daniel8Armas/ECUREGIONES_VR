@@ -40,12 +40,11 @@ El proyecto sigue una estructura organizada para facilitar su mantenimiento y es
 
 ```text
 Assets/
-├── Scenes/          # Escenas principales de las regiones del Ecuador
-├── Scripts/         # Lógica principal del juego en C#
-├── Prefabs/         # Elementos y objetos prefabricados reutilizables
-├── Materials/       # Materiales y texturas de los escenarios
-├── Models/          # Modelos 3D de entornos y objetos
-├── XR/              # Configuraciones de realidad virtual
+├── EspeWall.cs                # Script principal actual en C# de lógica del entorno
+├── HotelRoom-Mavi3D/          # Assets y modelo del entorno de la habitación 3D
+├── Samples/                   # Scripts y recursos base del XR Interaction Toolkit
+├── Scenes/                    # Escenas del proyecto (LobbyScene, SampleScene)
+├── XR/ y XRI/                 # Configuraciones del rig y sistema de Realidad Virtual
 └── ...
 ```
 
@@ -57,12 +56,9 @@ A continuación se destacan algunos de los scripts principales de la lógica de 
 
 | Script | Responsabilidad |
 | ------ | --------------- |
-| [`EspeWall.cs`](Assets/EspeWall.cs) | Control y comportamiento de muros interactivos / lógicas específicas del entorno |
-| `VRInteraction.cs` | Gestión de interacciones VR (Ejemplo, reemplázalo con tus scripts reales) |
-| `GameManager.cs` | Gestión general del flujo del juego y control de niveles (Ejemplo) |
-| `PlayerController.cs` | Control de movimiento y físicas del jugador (Ejemplo) |
+| [`EspeWall.cs`](Assets/EspeWall.cs) | Lógica específica del comportamiento de muros interactivos y entorno |
 
-*(Nota: Reemplaza estos últimos ejemplos con los scripts y rutas reales de tu proyecto a medida que los desarrolles).*
+*(Nota: La aplicación del lenguaje C# en el proyecto actualmente se encuentra centralizada en `EspeWall.cs`. Los demás scripts en C# presentes en el repositorio corresponden a las lógicas predeterminadas de interacción y movimiento provistas por los paquetes de **XR Interaction Toolkit** y **XR Hands** en la carpeta `Assets/Samples/`).*
 
 ## 📸 Capturas
 
@@ -87,7 +83,7 @@ git clone https://github.com/Ale8Daniel8Armas/ECUREGIONES_VR.git
 2. Abrir el proyecto utilizando **Unity Hub**.
 3. Utilizar la versión de Unity **6000.4.9f1**.
 4. Configurar el dispositivo VR compatible (Oculus/Meta Quest, etc.).
-5. Abrir la escena principal desde: `Assets/Scenes/SampleScene.unity` *(Ajusta el nombre de tu escena principal)*.
+5. Abrir la escena principal desde: `Assets/Scenes/LobbyScene.unity` o `SampleScene.unity`.
 
 ### ⚠️ Importante
 > El proyecto fue desarrollado utilizando la versión exacta de Unity: **`6000.4.9f1`**
@@ -117,6 +113,6 @@ Durante el desarrollo de **ECUREGIONES 3D** trabajé y mejoré mis habilidades e
 
 Desarrollador de Software
 
-- 💼 LinkedIn: [Mi LinkedIn](#) <!-- Añade tu link -->
-- 🌐 Portfolio: [Mi Portfolio](#) <!-- Añade tu link -->
+- 💼 LinkedIn: [Mi LinkedIn](https://www.linkedin.com/in/alejo88/)
+- 🌐 Portfolio: [Mi Portfolio](https://portfolio-web-alejo.vercel.app/) 
 - 💻 GitHub: [Mi GitHub](https://github.com/Ale8Daniel8Armas)
